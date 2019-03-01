@@ -6,7 +6,6 @@
 #pale, bale -> true
 #pale, bae -> false
 
-#THIS COULD BE DONE WITH SWITCHES IN JAVA 
 
 
 def OneAway(word1,word2):

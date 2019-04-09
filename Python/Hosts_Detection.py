@@ -14,7 +14,7 @@ def findHosts(host_line,host_counter,max_key):
 		host_counter[source].add(destination)
 
 	else:
-		host_counter[source] = set()
+		host_counter[source] = set() #uniqe connections
 		host_counter[source].add(destination)
 	if len(host_counter[source]) > max_key:
 		max_key = len(host_counter[source])
